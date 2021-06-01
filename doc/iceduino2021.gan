@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="iceduino 2021" company="" webLink="" view-date="2021-05-31" view-index="0" gantt-divider-location="497" resource-divider-location="300" version="3.1.3102" locale="de_DE">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Vorgang" width="182" order="0"/>
+        <field id="tpd6" name="Dauer" width="28" order="1"/>
+        <field id="tpd4" name="Anfang" width="62" order="2"/>
+        <field id="tpd5" name="Ende" width="78" order="3"/>
+        <field id="tpd8" name="Verantwortlich" width="128" order="4"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="color.recent">
+            <![CDATA[#0099cc #000000 #999999 #00ff66 #99ffff #f4f4f4]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Ressource" width="210" order="0"/>
+        <field id="1" name="Rolle" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Nichts">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="13" name="Digitalrechner" color="#000000" meeting="false" project="true" start="2021-06-07" duration="13" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Reproduzierbare Arbeitsumgebung" color="#99ffff" meeting="false" start="2021-06-07" duration="7" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="2" name="Docker-Image" color="#0099cc" meeting="false" start="2021-06-07" duration="7" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="3" name="Virtuelle Maschine" color="#0099cc" meeting="false" start="2021-06-07" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="4" name="Einrichtung der Tools" color="#99ffff" meeting="false" start="2021-06-14" duration="8" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="5" name="Editoren für VHDL" color="#0099cc" meeting="false" start="2021-06-14" duration="3" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="GHDL und gtkwave für Simulation" color="#0099cc" meeting="false" start="2021-06-16" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="8" name="SVNR in Java" color="#0099cc" meeting="false" start="2021-06-17" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="81" name="MS1 - Digitalrechner" color="#00ff66" meeting="true" start="2021-06-25" duration="0" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="SOPC" color="#000000" meeting="false" project="true" start="2021-06-28" duration="48" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+            <task id="18" name="Toolchains einrichten" color="#99ffff" meeting="false" start="2021-06-28" duration="8" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="20" name="Hardware-Toolchain" color="#0099cc" meeting="false" start="2021-06-28" duration="8" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="21" name="Software-Toolchain" color="#0099cc" meeting="false" start="2021-06-28" duration="8" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="94" name="MS2 - Toolchain fertig" color="#00ff66" meeting="true" start="2021-07-08" duration="0" complete="0" thirdDate="2021-06-21" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="FPGA-Board" color="#99ffff" meeting="false" start="2021-07-08" duration="40" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="23" name="Auswahl" color="#99ffff" meeting="false" start="2021-07-08" duration="20" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                    <task id="24" name="Einschätzung des Produktionsaufwands" color="#0099cc" meeting="false" start="2021-07-08" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                    <task id="25" name="Evaluierung mit dem NeoRV32" color="#0099cc" meeting="false" start="2021-07-15" duration="15" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="26" name="Erweiterungsplatine" color="#0099cc" meeting="false" start="2021-08-05" duration="20" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="27" name="RISC-V Softcore" color="#99ffff" meeting="false" start="2021-07-08" duration="35" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="28" name="NeoRV32 Test" color="#0099cc" meeting="false" start="2021-07-08" duration="10" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="29" name="Mögliche Alternativen" color="#0099cc" meeting="false" start="2021-07-22" duration="10" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="30" name="Anpassungen an das gewählte Board" color="#0099cc" meeting="false" start="2021-08-05" duration="15" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="109" name="MS3 - SOPC" color="#00ff66" meeting="true" start="2021-09-01" duration="0" complete="0" thirdDate="2021-07-05" thirdDate-constraint="0" expand="true"/>
+        <task id="59" name="Integration und Tests" color="#99ffff" meeting="false" start="2021-09-02" duration="10" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+            <task id="104" name="Integration" color="#0099cc" meeting="false" start="2021-09-02" duration="5" complete="0" thirdDate="2021-07-05" thirdDate-constraint="0" expand="true"/>
+            <task id="105" name="Test" color="#0099cc" meeting="false" start="2021-09-09" duration="5" complete="0" thirdDate="2021-07-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="71" name="MS4 - Projektende" color="#00ff66" meeting="true" start="2021-09-17" duration="0" complete="0" thirdDate="2021-05-28" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Patryk Janik" function="1" contacts="" phone=""/>
+        <resource id="1" name="Christopher Parnow" function="1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="104" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="105" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="104" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="105" resource-id="1" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Projektverantwortlicher"/>
+    </roles>
+</project>
