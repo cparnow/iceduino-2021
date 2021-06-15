@@ -39,14 +39,14 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="13" name="Digitalrechner" color="#000000" meeting="false" project="true" start="2021-06-07" duration="13" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
-            <task id="0" name="Reproduzierbare Arbeitsumgebung" color="#99ffff" meeting="false" start="2021-06-07" duration="7" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+        <task id="13" name="Digitalrechner" color="#000000" meeting="false" project="true" start="2021-06-07" duration="13" complete="36" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Reproduzierbare Arbeitsumgebung" color="#99ffff" meeting="false" start="2021-06-07" duration="7" complete="41" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
                 <task id="2" name="Docker-Image" color="#0099cc" meeting="false" start="2021-06-07" duration="7" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="3" name="Virtuelle Maschine" color="#0099cc" meeting="false" start="2021-06-07" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="3" name="Virtuelle Maschine" color="#0099cc" meeting="false" start="2021-06-07" duration="5" complete="100" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="4" name="Einrichtung der Tools" color="#99ffff" meeting="false" start="2021-06-14" duration="8" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
-                <task id="5" name="Editoren für VHDL" color="#0099cc" meeting="false" start="2021-06-14" duration="3" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
-                <task id="9" name="GHDL und gtkwave für Simulation" color="#0099cc" meeting="false" start="2021-06-16" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Einrichtung der Tools" color="#99ffff" meeting="false" start="2021-06-14" duration="8" complete="30" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="5" name="Editoren für VHDL" color="#0099cc" meeting="false" start="2021-06-14" duration="3" complete="50" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="GHDL und gtkwave für Simulation" color="#0099cc" meeting="false" start="2021-06-16" duration="5" complete="50" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
                 <task id="8" name="SVNR in Java" color="#0099cc" meeting="false" start="2021-06-17" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
